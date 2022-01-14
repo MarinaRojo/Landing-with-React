@@ -3,17 +3,28 @@ import React from "react";
 const Cards = () => {
 	return (
 		<div>
-			<div class="card" style="width: 18rem;">
-				<img src="..." class="card-img-top" alt="..." />
+			<div className="card">
+				<img
+					src="https://via.placeholder.com/500x325.png"
+					className="card-img-top"
+					alt="..."
+				/>
 				<div className="card-body">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						Some quick example text to build on the card title and
-						make up the bulk of the card's content.
+					<h5 className="card text-center">Card title</h5>
+					<p className="card text-center">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
 					</p>
-					<a href="#" className="btn btn-primary">
-						Go somewhere
-					</a>
+					<div className="card text-center">
+						<div className="d-grid gap-2 col-6 mx-auto">
+							<a href="#" className="btn btn-primary">
+								Find Out More!
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
